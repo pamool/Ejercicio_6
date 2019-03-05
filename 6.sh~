@@ -1,0 +1,19 @@
+
+      read -p "Dime la cantidad de litros de agua que consumes " x
+
+     
+      precio_total=0
+
+      
+      
+      if [ $x -le 50 ];then 
+	  precio_total=20
+	  elif [ $x -le 200 ];then
+	  y=$(( $x - 50 * 0,2 + 20 ))
+	  precio_total=$y
+	  else
+	  precio_total=$(($y +  $x -50 * 0,1 + 20 ))
+
+	  fi
+      	  echo "El precio total es de $precio_total"
+	  

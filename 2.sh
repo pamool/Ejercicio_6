@@ -1,0 +1,14 @@
+read -p "Dame un valor " x
+while [ $x -le 0 ];do
+    echo "$x El valor no es valido"
+done
+ if [ $x -gt 0 ];then
+     echo "$x El valor es valido"
+fi
+
+resto=$((x%2))
+if [ $resto -eq 0 ];then
+    echo"Es par"
+else
+	echo "Es impar"
+fi

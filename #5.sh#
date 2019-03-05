@@ -1,0 +1,10 @@
+read -p "Dame un valor " x
+sumar_valores=0;
+contador=0;
+while [ $x -ne 0 ];do
+    if [ $x -eq 0 ];then
+	echo "has ganado"	fi
+    o "Intenta-lo otra vez"
+    $sumar_valores = $sumar_valores + 1
+done
+    
